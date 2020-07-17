@@ -1,0 +1,144 @@
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%x;
+    text-align: center;
+
+
+
+}
+
+table th{
+    background-color: #89253e;
+    color: white;
+    height: 30px;
+    border: 1px solid #ddd;
+
+}
+table td {
+    padding: 2px 4px;
+    border: 1px solid #ddd;
+    font-size: 30px;
+}
+
+td img {
+    max-width: 100px;
+    max-height: 200px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+.input,
+.submit {
+    margin: 10px 0;
+}
+
+.input label {
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.input select,
+.input input[type="text"] {
+       width: 300px;
+     padding: 8px 4px;
+    border-radius: 20px;
+    margin-left: 10px
+
+}
+
+.submit input[type="submit"] {
+   width: 100px;
+     padding: 10px 4px;
+    border-radius: 20px;
+    background-color: #89253e;
+    color: white;
+    border: 0;
+    margin-left: 7px;
+}
+
+.q {
+    width: 300px;
+     padding: 10px 4px;
+    border-radius: 20px;
+    margin-left: 10px
+
+}
+.cari{
+    width: 100px;
+     padding: 10px 4px;
+    border-radius: 20px;
+    background-color: #89253e;
+    color: white;
+    border: 0;
+}
+.cari:hover{
+    background-color: #d81b60
+}
+  .co{
+     width: 100px;
+     padding: 10px 4px;
+    border-radius: 20px;
+    background-color: #89253e;
+    color: white;
+    border: 0;
+}.co a:visited{
+    color: white;
+     text-decoration: none;
+}.co a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 15px;
+}.co:hover {
+      background-color: #d81b60
+}
+
+
+
+ ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+ }
+ ul.pagination li {
+display: inline;
+ }
+ ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+ }
+
+ ul.pagination li a.active{
+    background-color: #428bca;
+    color: white;
+ }
+ ul.pagination li a:hover:not(.active){
+    background-color: #ddd;
+ }
+
+ .coco{
+    float: left; 
+    background-color:#89253e;
+    color: white;
+    border-radius: 19px;
+    margin-top: 7px;
+    margin-left: 5px;
+
+
+ }
+ .coco i{
+    width: 100px; height: 30px; padding: 5px;
+ }
+ .coco:hover {
+    background-color:  #d81b60;
+ }

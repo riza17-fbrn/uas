@@ -1,0 +1,108 @@
+body{
+	font: 16px/28px arial,sans-serif;
+	background-color:#eaeaea;
+	color: #333;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	background-color: #fff;
+}
+.header{
+	padding: 10px;
+}
+.header .judul{
+	padding: 0;
+	margin: 0 0 20px 0;
+	
+}
+.header nav a{
+	margin-right: 10px;
+	text-decoration: none;
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 28px;
+}
+.header nav a:hover{
+	background-color: red;
+	color: white;
+
+}
+.badan{
+	height: 350px;
+	background-color: skyblue;
+}
+.badan img{
+
+	margin-top: 30px;
+	border: 2px solid;
+	border-radius: 76px;
+}
+.badan h1{
+	text-align: center;
+	margin-top: 5px;
+}
+.badan h3{
+	text-align: center;
+}
+.badan hr{
+	width: 375px;
+}
+.kaki{
+	background-color: solid;
+	height: 630px;
+	background-image: url(pc.png);
+}
+.kaki h1{
+	text-align: center;
+	margin-top: 0;
+	padding-top: 30px;
+	color: white;
+}
+.kaki img{
+	border:5px solid skyblue;
+	margin: 25px;
+	margin-left: 28px;
+}
+footer {
+	
+ 	clear:both;
+ 	background-color:#1d1d1d;
+	 padding:3px;
+ 	color:#eee;
+
+ }
+
+ /*contact*/
+ .badan2{
+ 	height: 580px;
+ 	background-color:skyblue;
+ }
+ .badan2 .judul2{
+ 	padding: 50px 0 0 0;
+	margin: 0 0 20px 0;
+ }
+  .entry {
+ margin:15px 0;
+ }
+
+.entry img {
+ float:left;
+ border-radius:5px;
+ margin-right:15px;
+ }
+
+ .entry p {
+ line-height:25px;
+ }
+
+/*about*/ 
+.badan3{
+	height: 730px;
+ 	background-color:skyblue;
+ 	border-top: 5px solid red;
+ 	border-bottom: 5px solid red;
+}
+.badan3 img{
+	padding: 30px;
+}
